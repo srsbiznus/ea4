@@ -1030,7 +1030,7 @@ pdo_mysql.default_socket=
 
 [mail function]
 sendmail_path = /usr/sbin/sendmail -t -i
-
+mail.log = /var/log/php_maillog
 ; For Win32 only.
 ; http://php.net/smtp
 SMTP = localhost
