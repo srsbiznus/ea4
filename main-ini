@@ -257,7 +257,7 @@ memory_limit = 128M
 ;
 ;   - Show all errors except for notices
 ;
-error_reporting = E_ALL & ~E_NOTICE & ~E_DEPRECATED
+error_reporting = E_ALL & ~E_WARNING & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT
 
 ; Print out errors (as a part of the output).  For production web sites,
 ; you're strongly encouraged to turn this feature off, and use error logging
